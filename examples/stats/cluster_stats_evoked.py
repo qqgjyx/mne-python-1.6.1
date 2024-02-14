@@ -97,3 +97,5 @@ hf = plt.plot(times, T_obs, "g")
 ax2.legend((h,), ("cluster p-value < 0.05",))
 ax2.set_xlabel("time (ms)")
 ax2.set_ylabel("f-values")
+
+plt.show()
